@@ -28,11 +28,9 @@ function Home() {
 
             <br />
             <p className="text-sm md:text-md text-justify">
-              I'm Bharath, a Master's student in Computer Applications at Anurag University, Hyderabad. 
-              With a strong foundation in computer science, I am passionate about software development, 
-              web technologies, and problem-solving. I constantly seek to enhance my skills and stay updated 
-              with the latest trends in technology. Explore my portfolio to learn more about my work and projects. 
-              I'm open to collaboration and new opportunities!
+                Hi there 👋, I’m Bharath, a recent MCA graduate who enjoys bringing ideas to life through code, design, and innovation.
+                I’m passionate about AI, web development, and cloud technologies, and I’m always exploring ways to make technology more intuitive and meaningful.
+                Always learning, always curious — I’m open to collaborations, challenges, and growth opportunities in the tech space.
             </p>
 
             <br />
