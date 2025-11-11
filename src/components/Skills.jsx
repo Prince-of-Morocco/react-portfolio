@@ -19,36 +19,17 @@ function Skills() {
       name: "Linux",
     },
     {
-      id: 2,
-      logo: sql,
-      name: "SQL",
-    },
-    {
       id: 3,
-      logo: s3,
-      name: "Amazon S3",
+      logo: java,
+      name: "Java",
     },
     {
       id: 4,
       logo: ec,
-      name: "EC2",
+      name: "Amazon EC2",
     },
-    // {
-    //   id: 5,
-    //   logo: oracle,
-    //   name: "Oracle",
-    // },
-    // {
-    //   id: 6,
-    //   logo: spring,
-    //   name: "Spring",
-    // },
-    // {
-    //   id: 7,
-    //   logo: springBoot,
-    //   name: "Spring Boot",
-    // },
   ];
+
   return (
     <div
       name="Skills"
@@ -56,17 +37,16 @@ function Skills() {
     >
       <div>
         <h1 className="text-3xl text-center font-bold mb-5">Skills</h1>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7 my-3 justify-center">
+
+        {/* ✅ Fixed Grid Layout - Centers all 3 cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 my-3 justify-items-center">
           {cardItem.map(({ id, logo, name }) => (
             <div
-              className="flex flex-col items-center justify-center border-[2px] rounded-full md:w-[200px] md:h-[200px] shadow-md p-1 cursor-pointer hover:scale-110 duration-300"
               key={id}
+              className="flex flex-col items-center justify-center border-[2px] rounded-full md:w-[200px] md:h-[200px] shadow-md p-4 cursor-pointer hover:scale-110 duration-300"
             >
-              <img src={logo} className="w-[150px] rounded-full" alt="" />
-              <div>
-                <div className="">{name}</div>
-              </div>
+              <img src={logo} className="w-[120px] h-[120px] rounded-full object-contain" alt={name} />
+              <div className="mt-3 text-center font-medium">{name}</div>
             </div>
           ))}
         </div>
