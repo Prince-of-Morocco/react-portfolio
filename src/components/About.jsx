@@ -37,11 +37,7 @@ function About() {
           Mission Statement
         </h1>
         <p className="text-justify leading-relaxed">
-          My mission is to leverage my skills and creativity to deliver
-          innovative solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
+          Dedicated to delivering innovative, efficient, and scalable digital solutions while constantly enhancing my skills and embracing new technologies.
         </p>
       </div>
     </div>
