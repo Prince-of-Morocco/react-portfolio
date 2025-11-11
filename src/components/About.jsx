@@ -23,6 +23,7 @@ function About() {
         </span>
 
         <br />
+        <br />
         <h1 className="text-green-600 font-semibold text-xl">
           Skills & Expertise
         </h1>
