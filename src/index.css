@@ -4,5 +4,21 @@
 @tailwind utilities;
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ✨ Soft Glow Animation for Tagline */
+@keyframes glow {
+  0%, 100% {
+    opacity: 0.85;
+    filter: drop-shadow(0 0 4px rgba(34, 197, 94, 0.4)); /* soft green glow */
   }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 6px rgba(34, 197, 94, 0.8)); /* stronger mid-glow */
+  }
+}
+
+.glow {
+  animation: glow 3s ease-in-out infinite;
+}
