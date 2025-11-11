@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import dev from "../../public/dev.png?url";
 
 import { FaLinkedin } from "react-icons/fa";
@@ -38,39 +38,38 @@ function Home() {
             <br />
 
             {/* Social Media + Currently Working */}
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-6 md:space-y-0">
+            <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between space-y-8 md:space-y-0 text-center md:text-left w-full">
 
               {/* Available On Section */}
-              <div className='space-y-2'>
-                <h1 className='font-bold text-lg'>Available On</h1>
-                <ul className='flex space-x-5'>
+              <div className='space-y-2 w-full md:w-auto'>
+                <h1 className='font-bold text-md mb-2'>Available On</h1>
+                <ul className='flex justify-center md:justify-start space-x-5'>
                   <li>
                     <a href="https://www.linkedin.com/in/bharath-raj-36br/" target="_blank" rel="noreferrer">
-                      <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600 duration-200" />
+                      <FaLinkedin className="text-xl cursor-pointer hover:text-blue-600 duration-200" />
                     </a>
                   </li>
                   <li>
                     <a href="https://github.com/Prince-of-Morocco" target="_blank" rel="noreferrer">
-                      <FaGithub className="text-2xl cursor-pointer hover:text-gray-800 duration-200" />
+                      <FaGithub className="text-xl cursor-pointer hover:text-gray-800 duration-200" />
                     </a>
                   </li>
                 </ul>
               </div>
 
               {/* Currently Working On Section */}
-              <div className='space-y-2 text-center'>
-                <h1 className='font-bold text-md'>Currently Working On</h1>
-                <div className='flex flex-wrap justify-center gap-3'>
+              <div className='space-y-2 w-full md:w-auto'>
+                <h1 className='font-bold text-md mb-2'>Currently Working On</h1>
+                <div className='flex flex-wrap justify-center md:justify-start gap-3'>
                   <span className='px-3 py-1.5 bg-gray-100 rounded-full shadow-sm text-xs md:text-sm font-medium hover:scale-105 duration-200'>
                     Gen AI
                   </span>
                   <span className='px-3 py-1.5 bg-gray-100 rounded-full shadow-sm text-xs md:text-sm font-medium hover:scale-105 duration-200'>
-                    SDLC 
+                    SDLC
                   </span>
                   <span className='px-3 py-1.5 bg-gray-100 rounded-full shadow-sm text-xs md:text-sm font-medium hover:scale-105 duration-200'>
                     Automation Testing
                   </span>
-                  
                 </div>
               </div>
 
