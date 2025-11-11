@@ -25,7 +25,7 @@ function About() {
         Skills & Expertise
       </h1>
       <span>
-      Proficient in: Linux, Python (Basic), SQL (Basic), AWS (S3, EC2)
+      Proficient in: Java, Linux, Amazon EC2
       </span>
       <br />
       <br />
